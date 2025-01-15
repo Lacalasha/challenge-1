@@ -1,5 +1,5 @@
-.main-container { 
- margin: 0 auto;
+.main-container {
+  margin: 0 auto;
 }
 .hero-container {
   max-width: 1440px;
@@ -277,15 +277,15 @@ header button {
   width: 360px;
   height: 447px;
 }
-footer{ 
+footer {
   max-width: 1440px;
   width: 100%;
-  background-color: #90D4C6;
+  background-color: #90d4c6;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.footer-container { 
+.footer-container {
   display: flex;
   flex-direction: column;
   max-width: 297px;
@@ -293,7 +293,7 @@ footer{
   align-items: center;
   margin-top: 72px;
 }
-.footer-container .contact-list { 
+.footer-container .contact-list {
   display: flex;
   gap: 57px;
   font-family: "Barlow";
@@ -301,12 +301,21 @@ footer{
   font-size: 18px;
   margin-top: 40px;
 }
-.contact-list a { 
-  color: #458D7E;
+.contact-list a {
+  color: #458d7e;
 }
-.socials-space { 
+.socials-space {
   margin-top: 88px;
   margin-bottom: 72px;
   display: flex;
   gap: 28px;
+}
+.hero-navigation li:hover {
+  color: black;
+}
+.contact-list a:hover {
+  color: white;
+}
+.hero-navigation button:active {
+  transform: scale(1.1, 1.1);
 }
