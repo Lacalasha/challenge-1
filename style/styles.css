@@ -1,3 +1,6 @@
+.main-container { 
+ margin: 0 auto;
+}
 .hero-container {
   max-width: 1440px;
   width: 100%;
@@ -238,7 +241,7 @@ header button {
   font-family: "Barlow";
   font-weight: 600;
   font-size: 18px;
-  color: #5B636D;
+  color: #5b636d;
 }
 .one-extra,
 .two-extra,
@@ -263,4 +266,47 @@ header button {
   font-weight: 600;
   font-size: 14px;
   font-family: "Barlow";
+}
+.images-container {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  margin-top: 160px;
+}
+.images-container img {
+  width: 360px;
+  height: 447px;
+}
+footer{ 
+  max-width: 1440px;
+  width: 100%;
+  background-color: #90D4C6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-container { 
+  display: flex;
+  flex-direction: column;
+  max-width: 297px;
+  width: 100%;
+  align-items: center;
+  margin-top: 72px;
+}
+.footer-container .contact-list { 
+  display: flex;
+  gap: 57px;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 40px;
+}
+.contact-list a { 
+  color: #458D7E;
+}
+.socials-space { 
+  margin-top: 88px;
+  margin-bottom: 72px;
+  display: flex;
+  gap: 28px;
 }
