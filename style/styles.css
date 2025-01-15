@@ -55,3 +55,212 @@ header button {
   width: 30px;
   height: 107px;
 }
+.brand-section {
+  display: flex;
+  gap: 110px;
+}
+.brand-section .brand-title {
+  max-width: 445px;
+  width: 100%;
+  margin-top: 158px;
+  margin-left: 165px;
+}
+.brand-section img {
+  width: 720px;
+  height: 600px;
+}
+.brand-title,
+.audience-title h3 {
+  font-weight: 900;
+  font-size: 40px;
+  color: #24303e;
+  font-family: "Fraunces";
+}
+.brand-title,
+.audience-title p {
+  margin-top: 32px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #808397;
+  font-family: "Barlow";
+}
+.rectangle-space {
+  position: relative;
+  font-weight: 900;
+  margin-top: 40px;
+  font-size: 15px;
+}
+.rectangle-space a {
+  color: #24303e;
+  margin-left: 18px;
+}
+.for-once-usage-background-help {
+  width: 137px;
+  height: 10px;
+  background-color: #fad40025;
+  border-radius: 28px;
+  position: absolute;
+  top: 9px;
+}
+.audience-space {
+  display: flex;
+  gap: 110px;
+}
+.audience-space img {
+  width: 720px;
+  height: 600px;
+}
+.audience-space .audience-title {
+  max-width: 445px;
+  width: 100%;
+  margin-top: 157px;
+}
+.audience-space a {
+  color: #24303e;
+  margin-left: 9px;
+}
+.extra-usage-audience {
+  position: absolute;
+  width: 137px;
+  height: 10px;
+  background-color: #fe776625;
+  border-radius: 28px;
+  top: 9px;
+}
+.audience-extra {
+  position: relative;
+  margin-top: 40px;
+  font-weight: 900;
+  font-size: 15px;
+  font-family: "Fraunces";
+}
+.bottom-finishing-details {
+  display: flex;
+}
+.graphic-design {
+  max-width: 720px;
+  width: 100%;
+  max-height: 600px;
+  height: 100%;
+  background-image: url(/images/cherry.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.graphic-info-space,
+.tangerine-info {
+  max-width: 339px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.graphic-info-space h3 {
+  margin-top: 398px;
+  font-weight: 900;
+  font-size: 28px;
+  font-family: "Fraunces";
+  color: #24554a;
+  text-align: center;
+}
+.graphic-info-space p {
+  text-align: center;
+  color: #3e7467;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Barlow";
+  margin-bottom: 59px;
+}
+.tangerine-section {
+  max-width: 720px;
+  width: 100%;
+  max-height: 600px;
+  height: 100%;
+  background-image: url(/images/tangerine.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.tangerine-section .tangerine-info h3 {
+  margin-top: 398px;
+  font-weight: 900;
+  font-size: 28px;
+  color: #052c3b;
+  font-family: "Fraunces";
+  text-align: center;
+}
+.tangerine-info p {
+  margin-bottom: 83px;
+  font-size: 16px;
+  color: #19536c;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Barlow";
+}
+.user-reviews {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.review-container {
+  max-width: 1428px;
+  width: 100%;
+  margin-top: 160px;
+}
+.review-container h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 20px;
+  color: #a7aaad;
+}
+.user-reviews .user-one-review,
+.user-two-review,
+.user-three-review {
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 81px;
+}
+.user-one-review p,
+.user-two-review p,
+.user-three-review p {
+  margin-top: 58px;
+  text-align: center;
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 18px;
+  color: #5B636D;
+}
+.one-extra,
+.two-extra,
+.three-extra {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 69px;
+}
+.one-extra p,
+.two-extra p,
+.three-extra p {
+  font-weight: 900;
+  font-size: 18px;
+  color: #24303e;
+  font-family: "Fraunces";
+}
+.one-extra span,
+.two-extra span,
+.three-extra span {
+  color: #a7aaad;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Barlow";
+}
