@@ -1,17 +1,15 @@
-.main-container {
-  margin: 0 auto;
-}
 .hero-container {
   max-width: 1440px;
   width: 100%;
   height: 800px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-image: url(/images/orange.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding-top: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .hero-container header {
   max-width: 1352px;
@@ -19,303 +17,94 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 34px;
-  position: relative;
 }
-header ul {
+.header-navigation ul {
   display: flex;
   gap: 47px;
-  font-size: 18px;
-  font-weight: 600;
-  color: #ffffff;
   align-items: center;
 }
-header li {
-  color: white;
-  font-family: "Barlow";
-}
-header button {
-  padding: 15px 31px;
-  background-color: #ffffff;
+.header-navigation button {
+  padding: 15px 32px;
+  border-radius: 28px;
+  font-size: 15px;
   color: #24303e;
   font-weight: 700;
-  font-size: 15px;
-  cursor: pointer;
-  border-radius: 28px;
   font-family: "Fraunces";
+  cursor: pointer;
 }
-.hero-container .hero-section h3 {
-  font-size: 56px;
+.header-navigation a {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: "Barlow";
+}
+.header-navigation a:hover {
+  color: black;
+}
+.header-navigation button:active {
+  background-color: lightblue;
+  transform: translateY(4px);
+}
+.orange-content h3 {
+  font-family: "Fraunces";
   font-weight: 900;
+  font-size: 56px;
   color: #ffffff;
   margin-top: 105px;
-  font-family: "Fraunces";
 }
-.hero-section img {
-  position: absolute;
-  left: 705px;
-  top: 350px;
+#forDirection {
   width: 30px;
   height: 107px;
+  position: absolute;
+  top: 375px;
 }
 .brand-section {
   display: flex;
-  gap: 110px;
-}
-.brand-section .brand-title {
-  max-width: 445px;
-  width: 100%;
-  margin-top: 158px;
-  margin-left: 165px;
 }
 .brand-section img {
   width: 720px;
   height: 600px;
 }
-.brand-title,
-.audience-title h3 {
+.brand-class {
+  max-width: 445px;
+  width: 100%;
+  margin: auto 110px auto 165px;
+}
+.brand-class h4 {
+  font-family: "Fraunces";
   font-weight: 900;
   font-size: 40px;
   color: #24303e;
-  font-family: "Fraunces";
+  line-height: 49px;
 }
-.brand-title,
-.audience-title p {
-  margin-top: 32px;
-  font-weight: 600;
-  font-size: 18px;
-  color: #808397;
+.brand-class p {
   font-family: "Barlow";
+  font-weight: 600px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #808397;
+  margin-top: 32px;
 }
-.rectangle-space {
-  position: relative;
-  font-weight: 900;
+.brand-class button {
   margin-top: 40px;
+  font-weight: 900;
+  font-family: "Fraunces";
+  background-color: white;
   font-size: 15px;
-}
-.rectangle-space a {
   color: #24303e;
-  margin-left: 18px;
+  position: relative;
+  margin-left: 8px;
 }
-.for-once-usage-background-help {
+.extraButtonstyle {
+  max-width: 137px;
+  width: 100%;
+  position: relative;
+}
+#forextraonceusage {
   width: 137px;
   height: 10px;
   background-color: #fad40025;
-  border-radius: 28px;
   position: absolute;
-  top: 9px;
-}
-.audience-space {
-  display: flex;
-  gap: 110px;
-}
-.audience-space img {
-  width: 720px;
-  height: 600px;
-}
-.audience-space .audience-title {
-  max-width: 445px;
-  width: 100%;
-  margin-top: 157px;
-}
-.audience-space a {
-  color: #24303e;
-  margin-left: 9px;
-}
-.extra-usage-audience {
-  position: absolute;
-  width: 137px;
-  height: 10px;
-  background-color: #fe776625;
   border-radius: 28px;
-  top: 9px;
-}
-.audience-extra {
-  position: relative;
-  margin-top: 40px;
-  font-weight: 900;
-  font-size: 15px;
-  font-family: "Fraunces";
-}
-.bottom-finishing-details {
-  display: flex;
-}
-.graphic-design {
-  max-width: 720px;
-  width: 100%;
-  max-height: 600px;
-  height: 100%;
-  background-image: url(/images/cherry.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-}
-.graphic-info-space,
-.tangerine-info {
-  max-width: 339px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 27px;
-}
-.graphic-info-space h3 {
-  margin-top: 398px;
-  font-weight: 900;
-  font-size: 28px;
-  font-family: "Fraunces";
-  color: #24554a;
-  text-align: center;
-}
-.graphic-info-space p {
-  text-align: center;
-  color: #3e7467;
-  font-weight: 600;
-  font-size: 18px;
-  font-family: "Barlow";
-  margin-bottom: 59px;
-}
-.tangerine-section {
-  max-width: 720px;
-  width: 100%;
-  max-height: 600px;
-  height: 100%;
-  background-image: url(/images/tangerine.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-}
-.tangerine-section .tangerine-info h3 {
-  margin-top: 398px;
-  font-weight: 900;
-  font-size: 28px;
-  color: #052c3b;
-  font-family: "Fraunces";
-  text-align: center;
-}
-.tangerine-info p {
-  margin-bottom: 83px;
-  font-size: 16px;
-  color: #19536c;
-  font-weight: 600;
-  text-align: center;
-  font-family: "Barlow";
-}
-.user-reviews {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
-.review-container {
-  max-width: 1428px;
-  width: 100%;
-  margin-top: 160px;
-}
-.review-container h3 {
-  display: flex;
-  justify-content: center;
-  font-family: "Fraunces";
-  font-weight: 900;
-  font-size: 20px;
-  color: #a7aaad;
-}
-.user-reviews .user-one-review,
-.user-two-review,
-.user-three-review {
-  max-width: 350px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 81px;
-}
-.user-one-review p,
-.user-two-review p,
-.user-three-review p {
-  margin-top: 58px;
-  text-align: center;
-  font-family: "Barlow";
-  font-weight: 600;
-  font-size: 18px;
-  color: #5b636d;
-}
-.one-extra,
-.two-extra,
-.three-extra {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  margin-top: 69px;
-}
-.one-extra p,
-.two-extra p,
-.three-extra p {
-  font-weight: 900;
-  font-size: 18px;
-  color: #24303e;
-  font-family: "Fraunces";
-}
-.one-extra span,
-.two-extra span,
-.three-extra span {
-  color: #a7aaad;
-  font-weight: 600;
-  font-size: 14px;
-  font-family: "Barlow";
-}
-.images-container {
-  display: flex;
-  max-width: 1440px;
-  width: 100%;
-  margin-top: 160px;
-}
-.images-container img {
-  width: 360px;
-  height: 447px;
-}
-footer {
-  max-width: 1440px;
-  width: 100%;
-  background-color: #90d4c6;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  max-width: 297px;
-  width: 100%;
-  align-items: center;
-  margin-top: 72px;
-}
-.footer-container .contact-list {
-  display: flex;
-  gap: 57px;
-  font-family: "Barlow";
-  font-weight: 600;
-  font-size: 18px;
-  margin-top: 40px;
-}
-.contact-list a {
-  color: #458d7e;
-}
-.socials-space {
-  margin-top: 88px;
-  margin-bottom: 72px;
-  display: flex;
-  gap: 28px;
-}
-.hero-navigation li:hover {
-  color: black;
-}
-.contact-list a:hover {
-  color: white;
-}
-.hero-navigation button:active {
-  transform: scale(1.1, 1.1);
+  bottom: 0;
 }
